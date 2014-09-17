@@ -8,4 +8,5 @@ version          '0.1.3'
 
 recipe            'loganov-logstash::default', 'Install logstash'
 
+depends           'loganov-java'
 depends           'yum'

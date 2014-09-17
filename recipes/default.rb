@@ -7,6 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
+include_recipe "loganov-java"
+
 cookbook_file 'GPG-KEY-elasticsearch' do
     path   '/etc/pki/rpm-gpg/GPG-KEY-elasticsearch'
     owner  'root'
